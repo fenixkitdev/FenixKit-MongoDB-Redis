@@ -6,6 +6,14 @@
 Stop rewriting the same boilerplate on every project. FenixKit gives you a solid, scalable foundation — error handling, dual pagination, Redis cache, repository pattern, Docker, Swagger — all wired up, documented, and ready to extend from day one.
 
 👉 [fenixkit.dev](https://fenixkit.dev)
+<p align="center">
+  <a href="https://fenixkit.dev">
+    <img src="images/logo-0.png" alt="FenixKit" width="300" />
+  </a>
+</p>
+<h3 align="center">
+  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+</h3>
 
 ---
 
