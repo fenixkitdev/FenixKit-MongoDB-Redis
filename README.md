@@ -5,14 +5,7 @@
 
 Stop rewriting the same boilerplate on every project. FenixKit gives you a solid, scalable foundation — error handling, dual pagination, Redis cache, repository pattern, Docker, Swagger — all wired up, documented, and ready to extend from day one.
 
-<p align="center">
-  <a href="https://fenixkit.dev">
-    <img src="images/logo-0.png" alt="FenixKit" width="300" />
-  </a>
-</p>
-<h3 align="center">
-  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
-</h3>
+👉 [fenixkit.dev](https://fenixkit.dev)
 
 ---
 
@@ -494,7 +487,7 @@ public async Task<ErrorOr<List<OrderSummaryResponse>>> GetByCustomerAsync(
 |---|---|
 | .NET SDK | 8.0 LTS |
 | MongoDB | 6.x+ (or use Docker Compose) |
-| Redis | 7.x (or use Docker Compose) |
+| Redis | 8.x · or Valkey 7.2+ (or use Docker Compose) |
 | Docker Desktop | 4.x (optional) |
 
 ### Setup
@@ -536,6 +529,7 @@ Once the checklist passes, rename or delete the Product files and replace them w
 |---|---|---|
 | .NET 8 LTS + C# 12 | 8.0 | Runtime, SDK and language |
 | MongoDB.Driver | 3.8.0 | Official MongoDB .NET driver |
+| Redis 8 / Valkey 7.2+ | — | Cache server — compatible with both (`docker-compose.valkey.yml` included) |
 | StackExchange.Redis | 2.8.16 | Redis client — `IConnectionMultiplexer` singleton |
 | ErrorOr | 2.0.1 | Result pattern — no exceptions for domain errors |
 | Swashbuckle.AspNetCore | 6.6.2 | Swagger UI and OpenAPI spec generation |
