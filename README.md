@@ -1,4 +1,4 @@
-# FenixKit — .NET 8 Minimal API Starter Kit
+# FenixKit — .NET Minimal API Starter Kit
 
 > **Ship faster. Build smarter.**  
 > A MongoDB + Redis API template for .NET developers.
@@ -13,7 +13,7 @@ Stop rewriting the same boilerplate on every project. FenixKit gives you a solid
 
 | Feature | Details |
 |---|---|
-| **Architecture** | .NET 8 Minimal API — no controllers, faster startup |
+| **Architecture** | .NET 8 / .NET 10 Minimal API — no controllers, faster startup |
 | **Database** | MongoDB with a full abstraction layer |
 | **Cache** | Redis cache-aside, tag-based invalidation, 3 control levels |
 | **Error handling** | ErrorOr v2 result pattern + RFC 7807 ProblemDetails |
@@ -485,7 +485,7 @@ public async Task<ErrorOr<List<OrderSummaryResponse>>> GetByCustomerAsync(
 
 | Requirement | Minimum |
 |---|---|
-| .NET SDK | 8.0 LTS |
+| .NET SDK | 8.0 LTS or 10.0 |
 | MongoDB | 6.x+ (or use Docker Compose) |
 | Redis | 8.x · or Valkey 7.2+ (or use Docker Compose) |
 | Docker Desktop | 4.x (optional) |
@@ -527,14 +527,14 @@ Once the checklist passes, rename or delete the Product files and replace them w
 
 | Package | Version | Role |
 |---|---|---|
-| .NET 8 LTS + C# 12 | 8.0 | Runtime, SDK and language |
-| MongoDB.Driver | 3.8.0 | Official MongoDB .NET driver |
+| .NET 8 LTS (C# 12) · .NET 10 (C# 14) | — | Runtime, SDK and language |
+| MongoDB.Driver | — | Official MongoDB .NET driver |
 | Redis 8 / Valkey 7.2+ | — | Cache server — compatible with both (`docker-compose.valkey.yml` included) |
-| StackExchange.Redis | 2.8.16 | Redis client — `IConnectionMultiplexer` singleton |
-| ErrorOr | 2.0.1 | Result pattern — no exceptions for domain errors |
-| Swashbuckle.AspNetCore | 6.6.2 | Swagger UI and OpenAPI spec generation |
-| DotNetEnv | 3.1.1 | `.env` file loading at startup |
-| Steeltoe.Extensions.Configuration.PlaceholderCore | 3.2.0 | `${VAR}` placeholder resolution in config |
+| StackExchange.Redis | — | Redis client — `IConnectionMultiplexer` singleton |
+| ErrorOr | — | Result pattern — no exceptions for domain errors |
+| Swashbuckle.AspNetCore | — | Swagger UI and OpenAPI spec generation |
+| DotNetEnv | — | `.env` file loading at startup |
+| Steeltoe.Configuration.Placeholder | — | `${VAR}` placeholder resolution in config |
 | Microsoft.Extensions.Diagnostics.HealthChecks | (built-in) | Liveness and readiness probe infrastructure |
 | Docker + Docker Compose | — | api + mongodb + redis in one command |
 
