@@ -1,11 +1,18 @@
 # FenixKit — .NET Minimal API Starter Kit
 
+<p align="center">
+  <a href="https://fenixkit.dev">
+    <img src="images/logo-mongo-redis.png" alt="FenixKit" width="300" />
+  </a>
+</p>
+<h3 align="center">
+  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+</h3>
+
 > **Ship faster. Build smarter.**  
 > A MongoDB + Redis API template for .NET developers.
 
 Stop rewriting the same boilerplate on every project. FenixKit gives you a solid, scalable foundation — error handling, dual pagination, Redis cache, repository pattern, Docker, Swagger — all wired up, documented, and ready to extend from day one.
-
-👉 [fenixkit.dev](https://fenixkit.dev)
 
 ---
 
