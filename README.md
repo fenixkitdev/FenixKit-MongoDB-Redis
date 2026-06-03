@@ -1,20 +1,19 @@
-# FenixKit — .NET Minimal API Starter Kit
+﻿# RAPID by FenixKit — Repository · API · Persistence · Instant · .NET
 
 <p align="center">
-  <a href="https://fenixkit.dev">
-    <img src="images/logo-mongo-redis.png" alt="FenixKit" width="300" />
+  <a href="https://fenixkit.dev/kits/rapid/">
+    <img src="https://fenixkit.dev/assets/kits/banners/rapid.png" alt="RAPID by FenixKit" width="100%" />
   </a>
 </p>
+<p align="center">
+  <img src="https://fenixkit.dev/assets/kits/logos/rapid.png" alt="RAPID" width="200" />
+</p>
 <h3 align="center">
-  Get it here: <a href="https://fenixkit.dev">fenixkit.dev</a>
+  <a href="https://fenixkit.dev/kits/rapid/">fenixkit.dev/kits/rapid/</a>
 </h3>
 
-> **Ship faster. Build smarter.**  
-> A MongoDB + Redis API template for .NET developers.
-
-Stop rewriting the same boilerplate on every project. FenixKit gives you a solid, scalable foundation — error handling, dual pagination, Redis cache, repository pattern, Docker, Swagger — all wired up, documented, and ready to extend from day one.
-
----
+> **RAPID — Repository · API · Persistence · Instant · .NET**
+> A MongoDB + Redis cache-aside .NET Minimal API template — tag-based invalidation, FailOpen resilience, dual pagination, hook-based repository — production-ready from day one.
 
 ## What's Inside
 
@@ -552,3 +551,5 @@ Once the checklist passes, rename or delete the Product files and replace them w
 FenixKit is a commercial product. Each purchase grants a lifetime licence for unlimited personal and commercial projects.
 
 👉 **[fenixkit.dev](https://fenixkit.dev)**
+
+
