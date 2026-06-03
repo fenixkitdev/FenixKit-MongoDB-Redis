@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://fenixkit.dev/kits/rapid/">
-    <img src="https://fenixkit.dev/assets/kits/banners/rapid.png" alt="RAPID by FenixKit" width="100%" />
+    <img src="images/banner.png" alt="RAPID by FenixKit" width="100%" />
   </a>
 </p>
 <p align="center">
-  <img src="https://fenixkit.dev/assets/kits/logos/rapid.png" alt="RAPID" width="200" />
+  <img src="images/logo.png" alt="RAPID" width="200" />
 </p>
 <h3 align="center">
   <a href="https://fenixkit.dev/kits/rapid/">fenixkit.dev/kits/rapid/</a>
